@@ -18,6 +18,7 @@ const showToastLoop = () => {
 
         onComplete: () => {
           setTimeout(showToastLoop, 2500);
+          //   repeating the loop after 2.5 sec
         },
       });
     },
